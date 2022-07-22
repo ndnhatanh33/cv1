@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 70px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 6px;
+  border-color: #EAF6F6;
+  margin: 80px auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  padding-top: 80px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.profile p {
+  line-height: 2;
+}
+
+.profile-img {
+  width: 35%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.football-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me p {
+  margin: 50px auto;
+  width: 80%;
+  line-height: 2;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: #EAF6F6;
+  background: linear-gradient(#11cdd4,#11999e);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.contact-me a:hover {
+  background: linear-gradient(#30e3cb,#2bc4ad);
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 80px;
+  padding: 40px 0;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  color: #11999E;
+  margin: auto 20px;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  margin-top: 40px;
+}
